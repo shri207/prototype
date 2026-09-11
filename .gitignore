@@ -26,4 +26,6 @@ yarn-error.log*
 Thumbs.db
 *.log
 !data/**/*.log
+*.db
+*.sqlite3
 

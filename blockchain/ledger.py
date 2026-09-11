@@ -40,7 +40,14 @@ def save_ledger(
     with open(filename, "w", encoding="utf-8") as f:
         json.dump(serialized_chain, f, indent=2, ensure_ascii=False)
 
+    try:
+        from storage.database import get_db
+        get_db().sync_blockchain_blocks(serialized_chain)
+    except Exception:
+        pass
+
     return filename
+
 
 
 def load_ledger(filename: str = "data/evidence_ledger.json") -> LogEvidenceChain:

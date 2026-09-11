@@ -124,5 +124,1245 @@
     },
     "previous_hash": "0c356fdafa3bd960f022c2b4332f7a2a2f548837ef1e50b98de4e2e8b5c4a574",
     "hash": "b46d68610cd58e69b216bdd885c8333f3c31e8555e7d11141bb0ae00f52e715f"
+  },
+  {
+    "index": 10,
+    "timestamp": 1789149888.3548937,
+    "event": {
+      "event_id": "ALT-001",
+      "event_type": "LOG_ANOMALY_C015",
+      "cluster_id": "C015",
+      "severity": "CRITICAL",
+      "risk_score": 80,
+      "action": "ESCALATE",
+      "priority": "CRITICAL",
+      "source": "HDFS",
+      "investigator": "INV-001",
+      "response_agent": "RESP-001",
+      "reason": "Extremely rare occurrence (0.05%, 1 event(s)). Medium warning or administrative operation match: 'replicate'. Behavioral pattern matches: replicate\\s+blk_. Evidence confirms 1 associated log line(s).",
+      "template": "BLOCK* ask <*>:<*> to replicate blk_<*> to datanode(s) <*>:<*>"
+    },
+    "previous_hash": "b46d68610cd58e69b216bdd885c8333f3c31e8555e7d11141bb0ae00f52e715f",
+    "hash": "0867cebac652d60297d8c808fa4f169e7993f2b97f7c708c07198ca60a8b9814"
+  },
+  {
+    "index": 11,
+    "timestamp": 1789149888.3642948,
+    "event": {
+      "event_id": "ALT-002",
+      "event_type": "LOG_ANOMALY_C016",
+      "cluster_id": "C016",
+      "severity": "CRITICAL",
+      "risk_score": 80,
+      "action": "ESCALATE",
+      "priority": "CRITICAL",
+      "source": "HDFS",
+      "investigator": "INV-001",
+      "response_agent": "RESP-001",
+      "reason": "Extremely rare occurrence (0.05%, 1 event(s)). Medium warning or administrative operation match: 'delete'. Behavioral pattern matches: delete\\s+blk_. Evidence confirms 1 associated log line(s).",
+      "template": "BLOCK* ask <*>:<*> to delete blk_<*>"
+    },
+    "previous_hash": "0867cebac652d60297d8c808fa4f169e7993f2b97f7c708c07198ca60a8b9814",
+    "hash": "861f5d3b910b86ad72023ba3768b0146085099f8f35789c27002978b11e1c91e"
+  },
+  {
+    "index": 12,
+    "timestamp": 1789149888.3687859,
+    "event": {
+      "event_id": "ALT-003",
+      "event_type": "LOG_ANOMALY_C012",
+      "cluster_id": "C012",
+      "severity": "HIGH",
+      "risk_score": 75,
+      "action": "ESCALATE",
+      "priority": "HIGH",
+      "source": "HDFS",
+      "investigator": "INV-001",
+      "response_agent": "RESP-001",
+      "reason": "Very rare occurrence (0.10%, 2 event(s)). Medium warning or administrative operation match: 'delete'. Behavioral pattern matches: delete\\s+blk_. Evidence confirms 2 associated log line(s).",
+      "template": "BLOCK* ask <*>:<*> to delete blk_<*>"
+    },
+    "previous_hash": "861f5d3b910b86ad72023ba3768b0146085099f8f35789c27002978b11e1c91e",
+    "hash": "29d28662123ec983a01ed8c51b82891f16450284f79cef26022b75a0924b508e"
+  },
+  {
+    "index": 13,
+    "timestamp": 1789149888.3741643,
+    "event": {
+      "event_id": "ALT-004",
+      "event_type": "LOG_ANOMALY_C014",
+      "cluster_id": "C014",
+      "severity": "HIGH",
+      "risk_score": 75,
+      "action": "ESCALATE",
+      "priority": "HIGH",
+      "source": "HDFS",
+      "investigator": "INV-001",
+      "response_agent": "RESP-001",
+      "reason": "Very rare occurrence (0.10%, 2 event(s)). Medium warning or administrative operation match: 'delete'. Behavioral pattern matches: delete\\s+blk_. Evidence confirms 2 associated log line(s).",
+      "template": "BLOCK* ask <*>:<*> to delete blk_<*>"
+    },
+    "previous_hash": "29d28662123ec983a01ed8c51b82891f16450284f79cef26022b75a0924b508e",
+    "hash": "1087d9aaaf05fefe23d641c5e454efc1fdf0df41d3b57a445a639f9a409cb85b"
+  },
+  {
+    "index": 14,
+    "timestamp": 1789149888.3797963,
+    "event": {
+      "event_id": "ALT-005",
+      "event_type": "LOG_ANOMALY_C011",
+      "cluster_id": "C011",
+      "severity": "HIGH",
+      "risk_score": 73,
+      "action": "ESCALATE",
+      "priority": "HIGH",
+      "source": "HDFS",
+      "investigator": "INV-001",
+      "response_agent": "RESP-001",
+      "reason": "Extremely rare occurrence (0.05%, 1 event(s)). Standard informational or low-severity marker: 'info'. Behavioral pattern matches: transfer\\s+block. Evidence confirms 1 associated log line(s).",
+      "template": "<*>:<*> Starting thread to transfer block blk_<*> to <*>:<*>"
+    },
+    "previous_hash": "1087d9aaaf05fefe23d641c5e454efc1fdf0df41d3b57a445a639f9a409cb85b",
+    "hash": "b1b6b6845490b3dd6cd412b1a68e019234b1372651d0ae7e3b67d628ad653328"
+  },
+  {
+    "index": 15,
+    "timestamp": 1789149888.3841913,
+    "event": {
+      "event_id": "ALT-006",
+      "event_type": "LOG_ANOMALY_C013",
+      "cluster_id": "C013",
+      "severity": "HIGH",
+      "risk_score": 63,
+      "action": "ESCALATE",
+      "priority": "HIGH",
+      "source": "HDFS",
+      "investigator": "INV-001",
+      "response_agent": "RESP-001",
+      "reason": "Very rare occurrence (0.10%, 2 event(s)). Standard informational or low-severity marker: 'info'. Evidence confirms 2 associated log line(s).",
+      "template": "Received block blk_<*> src: /<*>:<*> dest: /<*>:<*> of size <*>"
+    },
+    "previous_hash": "b1b6b6845490b3dd6cd412b1a68e019234b1372651d0ae7e3b67d628ad653328",
+    "hash": "8961bc7bacabcf6ede3cda8da9b698d5d4ed84b9b7ebad7033b8df714096ce58"
+  },
+  {
+    "index": 16,
+    "timestamp": 1789149888.3904395,
+    "event": {
+      "event_id": "ALT-007",
+      "event_type": "LOG_ANOMALY_C009",
+      "cluster_id": "C009",
+      "severity": "MEDIUM",
+      "risk_score": 45,
+      "action": "MONITOR",
+      "priority": "MEDIUM",
+      "source": "HDFS",
+      "investigator": "INV-001",
+      "response_agent": "RESP-001",
+      "reason": "Occasional occurrence (4.00%, 80 event(s)). High-risk error/auth indicator match: 'exception'. Evidence confirms 10 associated log line(s).",
+      "template": "<*>:<*>:Got exception while serving blk_<*> to /<*>:"
+    },
+    "previous_hash": "8961bc7bacabcf6ede3cda8da9b698d5d4ed84b9b7ebad7033b8df714096ce58",
+    "hash": "4c6034e797e0515d74ecb65cc1e9c953b69ba0029cb129c872cabec035fbaab3"
+  },
+  {
+    "index": 17,
+    "timestamp": 1789149888.3968272,
+    "event": {
+      "event_id": "ALT-008",
+      "event_type": "LOG_ANOMALY_C006",
+      "cluster_id": "C006",
+      "severity": "MEDIUM",
+      "risk_score": 37,
+      "action": "MONITOR",
+      "priority": "MEDIUM",
+      "source": "HDFS",
+      "investigator": "INV-001",
+      "response_agent": "RESP-001",
+      "reason": "Moderate frequency (1.00%, 20 event(s)). Standard informational or low-severity marker: 'info'. Evidence confirms 10 associated log line(s).",
+      "template": "Verification succeeded for blk_<*>"
+    },
+    "previous_hash": "4c6034e797e0515d74ecb65cc1e9c953b69ba0029cb129c872cabec035fbaab3",
+    "hash": "74ab69398a7a808be857810f3d52703d4e64b78e50354ed8818fab44583684b0"
+  },
+  {
+    "index": 18,
+    "timestamp": 1789149888.401326,
+    "event": {
+      "event_id": "ALT-009",
+      "event_type": "LOG_ANOMALY_C008",
+      "cluster_id": "C008",
+      "severity": "MEDIUM",
+      "risk_score": 32,
+      "action": "MONITOR",
+      "priority": "MEDIUM",
+      "source": "HDFS",
+      "investigator": "INV-001",
+      "response_agent": "RESP-001",
+      "reason": "Occasional occurrence (4.00%, 80 event(s)). Standard informational or low-severity marker: 'info'. Evidence confirms 10 associated log line(s).",
+      "template": "<*>:<*> Served block blk_<*> to /<*>"
+    },
+    "previous_hash": "74ab69398a7a808be857810f3d52703d4e64b78e50354ed8818fab44583684b0",
+    "hash": "7fdcb76eeb8dbf6dda666fcbf8bfce6c9c8499d8626e699f75ae5a2eaafcf26a"
+  },
+  {
+    "index": 19,
+    "timestamp": 1789149888.4079058,
+    "event": {
+      "event_id": "ALT-010",
+      "event_type": "LOG_ANOMALY_C010",
+      "cluster_id": "C010",
+      "severity": "MEDIUM",
+      "risk_score": 30,
+      "action": "MONITOR",
+      "priority": "MEDIUM",
+      "source": "HDFS",
+      "investigator": "INV-001",
+      "response_agent": "RESP-001",
+      "reason": "Common occurrence (11.20%, 224 event(s)). Medium warning or administrative operation match: 'delete'. Evidence confirms 10 associated log line(s).",
+      "template": "BLOCK* NameSystem.delete: blk_<*> is added to invalidSet of <*>:<*>"
+    },
+    "previous_hash": "7fdcb76eeb8dbf6dda666fcbf8bfce6c9c8499d8626e699f75ae5a2eaafcf26a",
+    "hash": "d4cd392fdf835c7f68b09fc4a8c12ea7cb8b8c275b295e009df45832b0270bae"
+  },
+  {
+    "index": 20,
+    "timestamp": 1789149982.9702404,
+    "event": {
+      "event_id": "ALT-001",
+      "event_type": "LOG_ANOMALY_C015",
+      "cluster_id": "C015",
+      "severity": "CRITICAL",
+      "risk_score": 80,
+      "action": "ESCALATE",
+      "priority": "CRITICAL",
+      "source": "HDFS",
+      "investigator": "INV-001",
+      "response_agent": "RESP-001",
+      "reason": "Extremely rare occurrence (0.05%, 1 event(s)). Medium warning or administrative operation match: 'replicate'. Behavioral pattern matches: replicate\\s+blk_. Evidence confirms 1 associated log line(s).",
+      "template": "BLOCK* ask <*>:<*> to replicate blk_<*> to datanode(s) <*>:<*>"
+    },
+    "previous_hash": "d4cd392fdf835c7f68b09fc4a8c12ea7cb8b8c275b295e009df45832b0270bae",
+    "hash": "de04213ce80f5855c577a80d10c19509f6bb4201c8a220938627c56d31bea618"
+  },
+  {
+    "index": 21,
+    "timestamp": 1789149982.9796512,
+    "event": {
+      "event_id": "ALT-002",
+      "event_type": "LOG_ANOMALY_C016",
+      "cluster_id": "C016",
+      "severity": "CRITICAL",
+      "risk_score": 80,
+      "action": "ESCALATE",
+      "priority": "CRITICAL",
+      "source": "HDFS",
+      "investigator": "INV-001",
+      "response_agent": "RESP-001",
+      "reason": "Extremely rare occurrence (0.05%, 1 event(s)). Medium warning or administrative operation match: 'delete'. Behavioral pattern matches: delete\\s+blk_. Evidence confirms 1 associated log line(s).",
+      "template": "BLOCK* ask <*>:<*> to delete blk_<*>"
+    },
+    "previous_hash": "de04213ce80f5855c577a80d10c19509f6bb4201c8a220938627c56d31bea618",
+    "hash": "2b329bba6e213a3ed63d9e1a66e72f12e4c82ff750359ac8f2c9c3a9fd5353ea"
+  },
+  {
+    "index": 22,
+    "timestamp": 1789149982.9857287,
+    "event": {
+      "event_id": "ALT-003",
+      "event_type": "LOG_ANOMALY_C012",
+      "cluster_id": "C012",
+      "severity": "HIGH",
+      "risk_score": 75,
+      "action": "ESCALATE",
+      "priority": "HIGH",
+      "source": "HDFS",
+      "investigator": "INV-001",
+      "response_agent": "RESP-001",
+      "reason": "Very rare occurrence (0.10%, 2 event(s)). Medium warning or administrative operation match: 'delete'. Behavioral pattern matches: delete\\s+blk_. Evidence confirms 2 associated log line(s).",
+      "template": "BLOCK* ask <*>:<*> to delete blk_<*>"
+    },
+    "previous_hash": "2b329bba6e213a3ed63d9e1a66e72f12e4c82ff750359ac8f2c9c3a9fd5353ea",
+    "hash": "ef1e7af39f8cd5c99f02454d8c1e9bd30faee3cab61a946728911f767afd516f"
+  },
+  {
+    "index": 23,
+    "timestamp": 1789149982.992363,
+    "event": {
+      "event_id": "ALT-004",
+      "event_type": "LOG_ANOMALY_C014",
+      "cluster_id": "C014",
+      "severity": "HIGH",
+      "risk_score": 75,
+      "action": "ESCALATE",
+      "priority": "HIGH",
+      "source": "HDFS",
+      "investigator": "INV-001",
+      "response_agent": "RESP-001",
+      "reason": "Very rare occurrence (0.10%, 2 event(s)). Medium warning or administrative operation match: 'delete'. Behavioral pattern matches: delete\\s+blk_. Evidence confirms 2 associated log line(s).",
+      "template": "BLOCK* ask <*>:<*> to delete blk_<*>"
+    },
+    "previous_hash": "ef1e7af39f8cd5c99f02454d8c1e9bd30faee3cab61a946728911f767afd516f",
+    "hash": "63054d2ee5c53081200cc5b99dda8d515ee150c6444515e6da126c9be5bee6ae"
+  },
+  {
+    "index": 24,
+    "timestamp": 1789149983.000524,
+    "event": {
+      "event_id": "ALT-005",
+      "event_type": "LOG_ANOMALY_C011",
+      "cluster_id": "C011",
+      "severity": "HIGH",
+      "risk_score": 73,
+      "action": "ESCALATE",
+      "priority": "HIGH",
+      "source": "HDFS",
+      "investigator": "INV-001",
+      "response_agent": "RESP-001",
+      "reason": "Extremely rare occurrence (0.05%, 1 event(s)). Standard informational or low-severity marker: 'info'. Behavioral pattern matches: transfer\\s+block. Evidence confirms 1 associated log line(s).",
+      "template": "<*>:<*> Starting thread to transfer block blk_<*> to <*>:<*>"
+    },
+    "previous_hash": "63054d2ee5c53081200cc5b99dda8d515ee150c6444515e6da126c9be5bee6ae",
+    "hash": "7a09852987f945c5c85a36b7392a3ed5014ce5398732747829cae2a9e1e2005b"
+  },
+  {
+    "index": 25,
+    "timestamp": 1789149983.0100079,
+    "event": {
+      "event_id": "ALT-006",
+      "event_type": "LOG_ANOMALY_C013",
+      "cluster_id": "C013",
+      "severity": "HIGH",
+      "risk_score": 63,
+      "action": "ESCALATE",
+      "priority": "HIGH",
+      "source": "HDFS",
+      "investigator": "INV-001",
+      "response_agent": "RESP-001",
+      "reason": "Very rare occurrence (0.10%, 2 event(s)). Standard informational or low-severity marker: 'info'. Evidence confirms 2 associated log line(s).",
+      "template": "Received block blk_<*> src: /<*>:<*> dest: /<*>:<*> of size <*>"
+    },
+    "previous_hash": "7a09852987f945c5c85a36b7392a3ed5014ce5398732747829cae2a9e1e2005b",
+    "hash": "f04cb72a54e07e243e8a28356bd43659b74819b928cef106ff255534d97072e0"
+  },
+  {
+    "index": 26,
+    "timestamp": 1789149983.0178835,
+    "event": {
+      "event_id": "ALT-007",
+      "event_type": "LOG_ANOMALY_C009",
+      "cluster_id": "C009",
+      "severity": "MEDIUM",
+      "risk_score": 45,
+      "action": "MONITOR",
+      "priority": "MEDIUM",
+      "source": "HDFS",
+      "investigator": "INV-001",
+      "response_agent": "RESP-001",
+      "reason": "Occasional occurrence (4.00%, 80 event(s)). High-risk error/auth indicator match: 'exception'. Evidence confirms 10 associated log line(s).",
+      "template": "<*>:<*>:Got exception while serving blk_<*> to /<*>:"
+    },
+    "previous_hash": "f04cb72a54e07e243e8a28356bd43659b74819b928cef106ff255534d97072e0",
+    "hash": "adb4133aa54932ce73ba9a9d095a5279653aca96bb8ded291777779a1bc9f6df"
+  },
+  {
+    "index": 27,
+    "timestamp": 1789149983.0262637,
+    "event": {
+      "event_id": "ALT-008",
+      "event_type": "LOG_ANOMALY_C006",
+      "cluster_id": "C006",
+      "severity": "MEDIUM",
+      "risk_score": 37,
+      "action": "MONITOR",
+      "priority": "MEDIUM",
+      "source": "HDFS",
+      "investigator": "INV-001",
+      "response_agent": "RESP-001",
+      "reason": "Moderate frequency (1.00%, 20 event(s)). Standard informational or low-severity marker: 'info'. Evidence confirms 10 associated log line(s).",
+      "template": "Verification succeeded for blk_<*>"
+    },
+    "previous_hash": "adb4133aa54932ce73ba9a9d095a5279653aca96bb8ded291777779a1bc9f6df",
+    "hash": "d49bf722537b41157f421d2c520e75a38c016c10f51816b248bd346bb87d3598"
+  },
+  {
+    "index": 28,
+    "timestamp": 1789149983.0356917,
+    "event": {
+      "event_id": "ALT-009",
+      "event_type": "LOG_ANOMALY_C008",
+      "cluster_id": "C008",
+      "severity": "MEDIUM",
+      "risk_score": 32,
+      "action": "MONITOR",
+      "priority": "MEDIUM",
+      "source": "HDFS",
+      "investigator": "INV-001",
+      "response_agent": "RESP-001",
+      "reason": "Occasional occurrence (4.00%, 80 event(s)). Standard informational or low-severity marker: 'info'. Evidence confirms 10 associated log line(s).",
+      "template": "<*>:<*> Served block blk_<*> to /<*>"
+    },
+    "previous_hash": "d49bf722537b41157f421d2c520e75a38c016c10f51816b248bd346bb87d3598",
+    "hash": "5c3535a4b6b71685cf5295eff2cb21824cea59419760e105073ed1ba8d28282b"
+  },
+  {
+    "index": 29,
+    "timestamp": 1789149983.0437138,
+    "event": {
+      "event_id": "ALT-010",
+      "event_type": "LOG_ANOMALY_C010",
+      "cluster_id": "C010",
+      "severity": "MEDIUM",
+      "risk_score": 30,
+      "action": "MONITOR",
+      "priority": "MEDIUM",
+      "source": "HDFS",
+      "investigator": "INV-001",
+      "response_agent": "RESP-001",
+      "reason": "Common occurrence (11.20%, 224 event(s)). Medium warning or administrative operation match: 'delete'. Evidence confirms 10 associated log line(s).",
+      "template": "BLOCK* NameSystem.delete: blk_<*> is added to invalidSet of <*>:<*>"
+    },
+    "previous_hash": "5c3535a4b6b71685cf5295eff2cb21824cea59419760e105073ed1ba8d28282b",
+    "hash": "c73f04ec9fa628aab39684fde34969f548503f2a6ef095ec276a71471beb2910"
+  },
+  {
+    "index": 30,
+    "timestamp": 1789149989.3040457,
+    "event": {
+      "event_id": "ALT-001",
+      "event_type": "LOG_ANOMALY_C010",
+      "cluster_id": "C010",
+      "severity": "HIGH",
+      "risk_score": 72,
+      "action": "ESCALATE",
+      "priority": "HIGH",
+      "source": "Linux",
+      "investigator": "INV-001",
+      "response_agent": "RESP-001",
+      "reason": "Extremely rare occurrence (0.05%, 1 event(s)). High-risk error/auth indicator match: 'user unknown'. Evidence confirms 1 associated log line(s).",
+      "template": "User unknown timed out after <*> seconds at Sat Jun <*> 02:23:10 <*>"
+    },
+    "previous_hash": "c73f04ec9fa628aab39684fde34969f548503f2a6ef095ec276a71471beb2910",
+    "hash": "e0b60550a757c32d8291fd5687dedf418f5252f68afd2305f7c3b4ecd5ed8cd0"
+  },
+  {
+    "index": 31,
+    "timestamp": 1789149989.3145204,
+    "event": {
+      "event_id": "ALT-002",
+      "event_type": "LOG_ANOMALY_C021",
+      "cluster_id": "C021",
+      "severity": "MEDIUM",
+      "risk_score": 59,
+      "action": "MONITOR",
+      "priority": "MEDIUM",
+      "source": "Linux",
+      "investigator": "INV-001",
+      "response_agent": "RESP-001",
+      "reason": "Extremely rare occurrence (0.05%, 1 event(s)). Standard log level without elevated severity markers. Evidence confirms 1 associated log line(s).",
+      "template": "klogd 1.4.1, log source = /proc/kmsg started."
+    },
+    "previous_hash": "e0b60550a757c32d8291fd5687dedf418f5252f68afd2305f7c3b4ecd5ed8cd0",
+    "hash": "039ff43cb2d72a4ecfd63d67d61d6a46f5969c2b52c11a404495c44f10ce50d9"
+  },
+  {
+    "index": 32,
+    "timestamp": 1789149989.3226116,
+    "event": {
+      "event_id": "ALT-003",
+      "event_type": "LOG_ANOMALY_C035",
+      "cluster_id": "C035",
+      "severity": "MEDIUM",
+      "risk_score": 58,
+      "action": "MONITOR",
+      "priority": "MEDIUM",
+      "source": "Linux",
+      "investigator": "INV-001",
+      "response_agent": "RESP-001",
+      "reason": "Extremely rare occurrence (0.05%, 1 event(s)). Standard log level without elevated severity markers. Evidence confirms 1 associated log line(s).",
+      "template": "kernel.core_uses_pid = <*>"
+    },
+    "previous_hash": "039ff43cb2d72a4ecfd63d67d61d6a46f5969c2b52c11a404495c44f10ce50d9",
+    "hash": "833266cb8f71cf502eb83e560fd6dce545fcf1c5dfad2f9843fd196b38b7c3b0"
+  },
+  {
+    "index": 33,
+    "timestamp": 1789149989.3316188,
+    "event": {
+      "event_id": "ALT-004",
+      "event_type": "LOG_ANOMALY_C007",
+      "cluster_id": "C007",
+      "severity": "MEDIUM",
+      "risk_score": 57,
+      "action": "MONITOR",
+      "priority": "MEDIUM",
+      "source": "Linux",
+      "investigator": "INV-001",
+      "response_agent": "RESP-001",
+      "reason": "Occasional occurrence (3.90%, 78 event(s)). High-risk error/auth indicator match: 'authentication failure'. Behavioral pattern matches: \\buid=0\\b, \\beuid=0\\b. Evidence confirms 10 associated log line(s).",
+      "template": "authentication failure; logname= uid=0 euid=0 <*> ruser= <*>"
+    },
+    "previous_hash": "833266cb8f71cf502eb83e560fd6dce545fcf1c5dfad2f9843fd196b38b7c3b0",
+    "hash": "fc4b6c8164c6090f39823180f5f5fc7d3a86d3521ff419c1ab3b05e881058d7b"
+  },
+  {
+    "index": 34,
+    "timestamp": 1789149989.3401215,
+    "event": {
+      "event_id": "ALT-005",
+      "event_type": "LOG_ANOMALY_C034",
+      "cluster_id": "C034",
+      "severity": "MEDIUM",
+      "risk_score": 56,
+      "action": "MONITOR",
+      "priority": "MEDIUM",
+      "source": "Linux",
+      "investigator": "INV-001",
+      "response_agent": "RESP-001",
+      "reason": "Very rare occurrence (0.10%, 2 event(s)). Standard log level without elevated severity markers. Evidence confirms 2 associated log line(s).",
+      "template": "<*> <*> <*> <*> <*> <*> <*> <*>"
+    },
+    "previous_hash": "fc4b6c8164c6090f39823180f5f5fc7d3a86d3521ff419c1ab3b05e881058d7b",
+    "hash": "63d9ef7c593d1bcbd2136cb06f10a63e7cfb6186070602a007198b5f29ebeff9"
+  },
+  {
+    "index": 35,
+    "timestamp": 1789149989.3481286,
+    "event": {
+      "event_id": "ALT-006",
+      "event_type": "LOG_ANOMALY_C013",
+      "cluster_id": "C013",
+      "severity": "MEDIUM",
+      "risk_score": 53,
+      "action": "MONITOR",
+      "priority": "MEDIUM",
+      "source": "Linux",
+      "investigator": "INV-001",
+      "response_agent": "RESP-001",
+      "reason": "Extremely rare occurrence (0.05%, 1 event(s)). Standard log level without elevated severity markers. Evidence confirms 1 associated log line(s).",
+      "template": "Received SNMP packet(s) from 67.170.148.126"
+    },
+    "previous_hash": "63d9ef7c593d1bcbd2136cb06f10a63e7cfb6186070602a007198b5f29ebeff9",
+    "hash": "76c84b8cb8f0624dfabf2425f596b3639475bc971a183523684236c2178aae73"
+  },
+  {
+    "index": 36,
+    "timestamp": 1789149989.3581362,
+    "event": {
+      "event_id": "ALT-007",
+      "event_type": "LOG_ANOMALY_C022",
+      "cluster_id": "C022",
+      "severity": "MEDIUM",
+      "risk_score": 53,
+      "action": "MONITOR",
+      "priority": "MEDIUM",
+      "source": "Linux",
+      "investigator": "INV-001",
+      "response_agent": "RESP-001",
+      "reason": "Extremely rare occurrence (0.05%, 1 event(s)). Standard log level without elevated severity markers. Evidence confirms 1 associated log line(s).",
+      "template": "Linux version 2.6.5-1.358 (bhcompile@bugs.build.redhat.com) (gcc version 3.3.3 <*> (Red Hat Linux 3.3.3-7)) #1 Sat May <*> 09:04:50 EDT <*>"
+    },
+    "previous_hash": "76c84b8cb8f0624dfabf2425f596b3639475bc971a183523684236c2178aae73",
+    "hash": "dcbed9db878ae1c480bc99ba4f4e1966f7e9817186e0ac43d8f5f4ca57ee0fa8"
+  },
+  {
+    "index": 37,
+    "timestamp": 1789149989.366922,
+    "event": {
+      "event_id": "ALT-008",
+      "event_type": "LOG_ANOMALY_C023",
+      "cluster_id": "C023",
+      "severity": "MEDIUM",
+      "risk_score": 53,
+      "action": "MONITOR",
+      "priority": "MEDIUM",
+      "source": "Linux",
+      "investigator": "INV-001",
+      "response_agent": "RESP-001",
+      "reason": "Extremely rare occurrence (0.05%, 1 event(s)). Standard log level without elevated severity markers. Evidence confirms 1 associated log line(s).",
+      "template": "ACPI disabled because your bios is from <*> and too old"
+    },
+    "previous_hash": "dcbed9db878ae1c480bc99ba4f4e1966f7e9817186e0ac43d8f5f4ca57ee0fa8",
+    "hash": "8ca2ff432865ab5a9e1b198ff882027a9c1195b827bd70f5a3738c70e1c2ee6f"
+  },
+  {
+    "index": 38,
+    "timestamp": 1789149989.3757484,
+    "event": {
+      "event_id": "ALT-009",
+      "event_type": "LOG_ANOMALY_C024",
+      "cluster_id": "C024",
+      "severity": "MEDIUM",
+      "risk_score": 53,
+      "action": "MONITOR",
+      "priority": "MEDIUM",
+      "source": "Linux",
+      "investigator": "INV-001",
+      "response_agent": "RESP-001",
+      "reason": "Extremely rare occurrence (0.05%, 1 event(s)). Standard log level without elevated severity markers. Evidence confirms 1 associated log line(s).",
+      "template": "You can enable it with acpi=force"
+    },
+    "previous_hash": "8ca2ff432865ab5a9e1b198ff882027a9c1195b827bd70f5a3738c70e1c2ee6f",
+    "hash": "2b8ab9a811f76580c2444eb5c1e41ea60b1f731ee34bbd5e808fe110cfb46976"
+  },
+  {
+    "index": 39,
+    "timestamp": 1789149989.386484,
+    "event": {
+      "event_id": "ALT-010",
+      "event_type": "LOG_ANOMALY_C025",
+      "cluster_id": "C025",
+      "severity": "MEDIUM",
+      "risk_score": 53,
+      "action": "MONITOR",
+      "priority": "MEDIUM",
+      "source": "Linux",
+      "investigator": "INV-001",
+      "response_agent": "RESP-001",
+      "reason": "Extremely rare occurrence (0.05%, 1 event(s)). Standard log level without elevated severity markers. Evidence confirms 1 associated log line(s).",
+      "template": "Kernel command line: ro root=LABEL=/ rhgb quiet"
+    },
+    "previous_hash": "2b8ab9a811f76580c2444eb5c1e41ea60b1f731ee34bbd5e808fe110cfb46976",
+    "hash": "6909ff6d25c73a0e55b9aaaa0e2a2cc90539f323c9c5f5e9c5373768519a24f5"
+  },
+  {
+    "index": 40,
+    "timestamp": 1789149989.395506,
+    "event": {
+      "event_id": "ALT-011",
+      "event_type": "LOG_ANOMALY_C027",
+      "cluster_id": "C027",
+      "severity": "MEDIUM",
+      "risk_score": 53,
+      "action": "MONITOR",
+      "priority": "MEDIUM",
+      "source": "Linux",
+      "investigator": "INV-001",
+      "response_agent": "RESP-001",
+      "reason": "Extremely rare occurrence (0.05%, 1 event(s)). Standard log level without elevated severity markers. Evidence confirms 1 associated log line(s).",
+      "template": "CPU <*> irqstacks, hard=02345000 soft=02344000"
+    },
+    "previous_hash": "6909ff6d25c73a0e55b9aaaa0e2a2cc90539f323c9c5f5e9c5373768519a24f5",
+    "hash": "2f80842d2eba2abe7bc315860781975b67e57d31449bd07fe60a0aaa981431c8"
+  },
+  {
+    "index": 41,
+    "timestamp": 1789149989.4032302,
+    "event": {
+      "event_id": "ALT-012",
+      "event_type": "LOG_ANOMALY_C029",
+      "cluster_id": "C029",
+      "severity": "MEDIUM",
+      "risk_score": 53,
+      "action": "MONITOR",
+      "priority": "MEDIUM",
+      "source": "Linux",
+      "investigator": "INV-001",
+      "response_agent": "RESP-001",
+      "reason": "Extremely rare occurrence (0.05%, 1 event(s)). Standard log level without elevated severity markers. Evidence confirms 1 associated log line(s).",
+      "template": "Memory: 125312k/129720k available (1540k kernel code, 3860k reserved, 599k data, 144k init, 0k highmem)"
+    },
+    "previous_hash": "2f80842d2eba2abe7bc315860781975b67e57d31449bd07fe60a0aaa981431c8",
+    "hash": "b0231e2020db43f73eb2847f5446648246a13d565907837880cac4aa3f575bba"
+  },
+  {
+    "index": 42,
+    "timestamp": 1789149989.4126477,
+    "event": {
+      "event_id": "ALT-013",
+      "event_type": "LOG_ANOMALY_C030",
+      "cluster_id": "C030",
+      "severity": "MEDIUM",
+      "risk_score": 53,
+      "action": "MONITOR",
+      "priority": "MEDIUM",
+      "source": "Linux",
+      "investigator": "INV-001",
+      "response_agent": "RESP-001",
+      "reason": "Extremely rare occurrence (0.05%, 1 event(s)). Standard log level without elevated severity markers. Evidence confirms 1 associated log line(s).",
+      "template": "Dentry cache hash table entries: <*> (order: 4, <*> bytes)"
+    },
+    "previous_hash": "b0231e2020db43f73eb2847f5446648246a13d565907837880cac4aa3f575bba",
+    "hash": "5da5f92f2b3b6c6c2fcefd8b5b486ceffd3537caf39b65de7241acdcc94a71ed"
+  },
+  {
+    "index": 43,
+    "timestamp": 1789149989.421174,
+    "event": {
+      "event_id": "ALT-014",
+      "event_type": "LOG_ANOMALY_C031",
+      "cluster_id": "C031",
+      "severity": "MEDIUM",
+      "risk_score": 53,
+      "action": "MONITOR",
+      "priority": "MEDIUM",
+      "source": "Linux",
+      "investigator": "INV-001",
+      "response_agent": "RESP-001",
+      "reason": "Extremely rare occurrence (0.05%, 1 event(s)). Standard log level without elevated severity markers. Evidence confirms 1 associated log line(s).",
+      "template": "PCI: PCI BIOS revision 2.10 entry at 0xfc0ce, last bus=1"
+    },
+    "previous_hash": "5da5f92f2b3b6c6c2fcefd8b5b486ceffd3537caf39b65de7241acdcc94a71ed",
+    "hash": "343dcb69c49188bfca4a5def2138e006332b64d4d2c6129574d195de0f0abdae"
+  },
+  {
+    "index": 44,
+    "timestamp": 1789149989.4288838,
+    "event": {
+      "event_id": "ALT-015",
+      "event_type": "LOG_ANOMALY_C032",
+      "cluster_id": "C032",
+      "severity": "MEDIUM",
+      "risk_score": 53,
+      "action": "MONITOR",
+      "priority": "MEDIUM",
+      "source": "Linux",
+      "investigator": "INV-001",
+      "response_agent": "RESP-001",
+      "reason": "Extremely rare occurrence (0.05%, 1 event(s)). Standard log level without elevated severity markers. Evidence confirms 1 associated log line(s).",
+      "template": "mtrr: v2.0 (20020519)"
+    },
+    "previous_hash": "343dcb69c49188bfca4a5def2138e006332b64d4d2c6129574d195de0f0abdae",
+    "hash": "c8ea4e1772e1869bcbf5dd91255421f93743f31cdc9f917d6be75bfcacffc598"
+  },
+  {
+    "index": 45,
+    "timestamp": 1789149989.4380295,
+    "event": {
+      "event_id": "ALT-016",
+      "event_type": "LOG_ANOMALY_C033",
+      "cluster_id": "C033",
+      "severity": "MEDIUM",
+      "risk_score": 53,
+      "action": "MONITOR",
+      "priority": "MEDIUM",
+      "source": "Linux",
+      "investigator": "INV-001",
+      "response_agent": "RESP-001",
+      "reason": "Extremely rare occurrence (0.05%, 1 event(s)). Standard log level without elevated severity markers. Evidence confirms 1 associated log line(s).",
+      "template": "PCI: Probing PCI hardware (bus 00)"
+    },
+    "previous_hash": "c8ea4e1772e1869bcbf5dd91255421f93743f31cdc9f917d6be75bfcacffc598",
+    "hash": "3594723c3e425cf273a31ff5175de6a4d4cc3c50fa4a66ccbb819baa790ed0b8"
+  },
+  {
+    "index": 46,
+    "timestamp": 1789149989.448669,
+    "event": {
+      "event_id": "ALT-017",
+      "event_type": "LOG_ANOMALY_C001",
+      "cluster_id": "C001",
+      "severity": "MEDIUM",
+      "risk_score": 52,
+      "action": "MONITOR",
+      "priority": "MEDIUM",
+      "source": "Linux",
+      "investigator": "INV-001",
+      "response_agent": "RESP-001",
+      "reason": "Occasional occurrence (2.00%, 40 event(s)). High-risk error/auth indicator match: 'authentication failure'. Behavioral pattern matches: \\buid=0\\b, \\beuid=0\\b. Evidence confirms 10 associated log line(s).",
+      "template": "authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= <*>"
+    },
+    "previous_hash": "3594723c3e425cf273a31ff5175de6a4d4cc3c50fa4a66ccbb819baa790ed0b8",
+    "hash": "0c78bef9be686de0d0ddc395d21d198a529a4a41fa1f2e3ee74c20cb701848ca"
+  },
+  {
+    "index": 47,
+    "timestamp": 1789149989.4576685,
+    "event": {
+      "event_id": "ALT-018",
+      "event_type": "LOG_ANOMALY_C009",
+      "cluster_id": "C009",
+      "severity": "MEDIUM",
+      "risk_score": 51,
+      "action": "MONITOR",
+      "priority": "MEDIUM",
+      "source": "Linux",
+      "investigator": "INV-001",
+      "response_agent": "RESP-001",
+      "reason": "Common occurrence (13.00%, 260 event(s)). High-risk error/auth indicator match: 'authentication failure'. Behavioral pattern matches: \\buid=0\\b, \\beuid=0\\b. Evidence confirms 10 associated log line(s).",
+      "template": "authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= <*> <*>"
+    },
+    "previous_hash": "0c78bef9be686de0d0ddc395d21d198a529a4a41fa1f2e3ee74c20cb701848ca",
+    "hash": "31dc7af34db7d6852cefe71dc5abb76597d513199199a367e9793880b50a8e36"
+  },
+  {
+    "index": 48,
+    "timestamp": 1789149989.4663522,
+    "event": {
+      "event_id": "ALT-019",
+      "event_type": "LOG_ANOMALY_C020",
+      "cluster_id": "C020",
+      "severity": "MEDIUM",
+      "risk_score": 51,
+      "action": "MONITOR",
+      "priority": "MEDIUM",
+      "source": "Linux",
+      "investigator": "INV-001",
+      "response_agent": "RESP-001",
+      "reason": "Low frequency occurrence (0.35%, 7 event(s)). Medium warning or administrative operation match: 'warn'. Evidence confirms 7 associated log line(s).",
+      "template": "<*> <*> <*> <*> <*> <*> <*> <*> <*>"
+    },
+    "previous_hash": "31dc7af34db7d6852cefe71dc5abb76597d513199199a367e9793880b50a8e36",
+    "hash": "73433a8dfc7757f52ae2acf71c7ac7f59485df189881ad8c19e2b88b96a56e4b"
+  },
+  {
+    "index": 49,
+    "timestamp": 1789149989.474853,
+    "event": {
+      "event_id": "ALT-020",
+      "event_type": "LOG_ANOMALY_C014",
+      "cluster_id": "C014",
+      "severity": "MEDIUM",
+      "risk_score": 49,
+      "action": "MONITOR",
+      "priority": "MEDIUM",
+      "source": "Linux",
+      "investigator": "INV-001",
+      "response_agent": "RESP-001",
+      "reason": "Low frequency occurrence (0.40%, 8 event(s)). High-risk error/auth indicator match: 'denied'. Evidence confirms 8 associated log line(s).",
+      "template": "Authentication failed from 163.27.187.39 (163.27.187.39): Permission denied in replay cache code"
+    },
+    "previous_hash": "73433a8dfc7757f52ae2acf71c7ac7f59485df189881ad8c19e2b88b96a56e4b",
+    "hash": "de9773e4fa1fb099183b5a17eccb53a14ef289a791358cf3653a90064f2956f2"
+  },
+  {
+    "index": 50,
+    "timestamp": 1789149989.4836586,
+    "event": {
+      "event_id": "ALT-021",
+      "event_type": "LOG_ANOMALY_C016",
+      "cluster_id": "C016",
+      "severity": "MEDIUM",
+      "risk_score": 49,
+      "action": "MONITOR",
+      "priority": "MEDIUM",
+      "source": "Linux",
+      "investigator": "INV-001",
+      "response_agent": "RESP-001",
+      "reason": "Low frequency occurrence (0.40%, 8 event(s)). Standard log level without elevated severity markers. Evidence confirms 8 associated log line(s).",
+      "template": "<*> device node <*>"
+    },
+    "previous_hash": "de9773e4fa1fb099183b5a17eccb53a14ef289a791358cf3653a90064f2956f2",
+    "hash": "ac9954b150041039a9862b46d0562411536d8c8b2f774b617d21299443d23660"
+  },
+  {
+    "index": 51,
+    "timestamp": 1789149989.491647,
+    "event": {
+      "event_id": "ALT-022",
+      "event_type": "LOG_ANOMALY_C017",
+      "cluster_id": "C017",
+      "severity": "MEDIUM",
+      "risk_score": 48,
+      "action": "MONITOR",
+      "priority": "MEDIUM",
+      "source": "Linux",
+      "investigator": "INV-001",
+      "response_agent": "RESP-001",
+      "reason": "Very rare occurrence (0.10%, 2 event(s)). Standard log level without elevated severity markers. Evidence confirms 2 associated log line(s).",
+      "template": "ANONYMOUS FTP LOGIN FROM 84.102.20.2, (anonymous)"
+    },
+    "previous_hash": "ac9954b150041039a9862b46d0562411536d8c8b2f774b617d21299443d23660",
+    "hash": "6d9814046ee0ac3d5866c07f1a1c3523e4169274d8215313d25e0c7efdf546a2"
+  },
+  {
+    "index": 52,
+    "timestamp": 1789149989.5008466,
+    "event": {
+      "event_id": "ALT-023",
+      "event_type": "LOG_ANOMALY_C003",
+      "cluster_id": "C003",
+      "severity": "MEDIUM",
+      "risk_score": 46,
+      "action": "MONITOR",
+      "priority": "MEDIUM",
+      "source": "Linux",
+      "investigator": "INV-001",
+      "response_agent": "RESP-001",
+      "reason": "Common occurrence (5.60%, 112 event(s)). High-risk error/auth indicator match: 'authentication failure'. Behavioral pattern matches: \\buid=0\\b, \\beuid=0\\b. Evidence confirms 10 associated log line(s).",
+      "template": "authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= <*> user=root"
+    },
+    "previous_hash": "6d9814046ee0ac3d5866c07f1a1c3523e4169274d8215313d25e0c7efdf546a2",
+    "hash": "19aaf1b8218eb18dccea1b906d30da630ee6d37201052cb8b5711317178d62b7"
+  },
+  {
+    "index": 53,
+    "timestamp": 1789149989.5093875,
+    "event": {
+      "event_id": "ALT-024",
+      "event_type": "LOG_ANOMALY_C026",
+      "cluster_id": "C026",
+      "severity": "MEDIUM",
+      "risk_score": 46,
+      "action": "MONITOR",
+      "priority": "MEDIUM",
+      "source": "Linux",
+      "investigator": "INV-001",
+      "response_agent": "RESP-001",
+      "reason": "Low frequency occurrence (0.15%, 3 event(s)). Standard log level without elevated severity markers. Evidence confirms 3 associated log line(s).",
+      "template": "<*> <*>"
+    },
+    "previous_hash": "19aaf1b8218eb18dccea1b906d30da630ee6d37201052cb8b5711317178d62b7",
+    "hash": "162250335c4f9211aaee6a803ce787a75d7541753cf27af9787c8beebeb5e472"
+  },
+  {
+    "index": 54,
+    "timestamp": 1789149989.517587,
+    "event": {
+      "event_id": "ALT-025",
+      "event_type": "LOG_ANOMALY_C028",
+      "cluster_id": "C028",
+      "severity": "MEDIUM",
+      "risk_score": 46,
+      "action": "MONITOR",
+      "priority": "MEDIUM",
+      "source": "Linux",
+      "investigator": "INV-001",
+      "response_agent": "RESP-001",
+      "reason": "Low frequency occurrence (0.20%, 4 event(s)). Standard log level without elevated severity markers. Evidence confirms 4 associated log line(s).",
+      "template": "<*> hash table entries: <*> <*> <*> <*> bytes)"
+    },
+    "previous_hash": "162250335c4f9211aaee6a803ce787a75d7541753cf27af9787c8beebeb5e472",
+    "hash": "4ddcdb7df421cbe2d31be5b5d1d160f20a34c1f286213408fa8b9bee03a8699d"
+  },
+  {
+    "index": 55,
+    "timestamp": 1789149989.5267239,
+    "event": {
+      "event_id": "ALT-026",
+      "event_type": "LOG_ANOMALY_C019",
+      "cluster_id": "C019",
+      "severity": "MEDIUM",
+      "risk_score": 43,
+      "action": "MONITOR",
+      "priority": "MEDIUM",
+      "source": "Linux",
+      "investigator": "INV-001",
+      "response_agent": "RESP-001",
+      "reason": "Low frequency occurrence (0.50%, 10 event(s)). Standard log level without elevated severity markers. Evidence confirms 10 associated log line(s).",
+      "template": "<*> <*> <*> <*> <*> <*> <*>"
+    },
+    "previous_hash": "4ddcdb7df421cbe2d31be5b5d1d160f20a34c1f286213408fa8b9bee03a8699d",
+    "hash": "e99510d756cba980008dd5b8967f7d5ab06ab36f16b36c23a511bb1181eb4f1c"
+  },
+  {
+    "index": 56,
+    "timestamp": 1789149989.5349529,
+    "event": {
+      "event_id": "ALT-027",
+      "event_type": "LOG_ANOMALY_C012",
+      "cluster_id": "C012",
+      "severity": "MEDIUM",
+      "risk_score": 35,
+      "action": "MONITOR",
+      "priority": "MEDIUM",
+      "source": "Linux",
+      "investigator": "INV-001",
+      "response_agent": "RESP-001",
+      "reason": "Low frequency occurrence (0.35%, 7 event(s)). Standard log level without elevated severity markers. Evidence confirms 7 associated log line(s).",
+      "template": "restart."
+    },
+    "previous_hash": "e99510d756cba980008dd5b8967f7d5ab06ab36f16b36c23a511bb1181eb4f1c",
+    "hash": "14332697ffafeb05a925f9509564014cd53189b1ac799846c2993e5b9273eb69"
+  },
+  {
+    "index": 57,
+    "timestamp": 1789149989.544614,
+    "event": {
+      "event_id": "ALT-028",
+      "event_type": "LOG_ANOMALY_C002",
+      "cluster_id": "C002",
+      "severity": "MEDIUM",
+      "risk_score": 33,
+      "action": "MONITOR",
+      "priority": "MEDIUM",
+      "source": "Linux",
+      "investigator": "INV-001",
+      "response_agent": "RESP-001",
+      "reason": "Common occurrence (6.55%, 131 event(s)). High-risk error/auth indicator match: 'user unknown'. Evidence confirms 10 associated log line(s).",
+      "template": "<*> <*> <*> <*>"
+    },
+    "previous_hash": "14332697ffafeb05a925f9509564014cd53189b1ac799846c2993e5b9273eb69",
+    "hash": "a664631c43a12e2681b4e67953a622100599fd8be16d92dfe8622620f4366d46"
+  },
+  {
+    "index": 58,
+    "timestamp": 1789149989.5520363,
+    "event": {
+      "event_id": "ALT-029",
+      "event_type": "LOG_ANOMALY_C018",
+      "cluster_id": "C018",
+      "severity": "MEDIUM",
+      "risk_score": 33,
+      "action": "MONITOR",
+      "priority": "MEDIUM",
+      "source": "Linux",
+      "investigator": "INV-001",
+      "response_agent": "RESP-001",
+      "reason": "Moderate frequency (1.05%, 21 event(s)). Standard log level without elevated severity markers. Evidence confirms 10 associated log line(s).",
+      "template": "<*> <*> <*> <*> <*> <*>"
+    },
+    "previous_hash": "a664631c43a12e2681b4e67953a622100599fd8be16d92dfe8622620f4366d46",
+    "hash": "ddc1ac77712b0b473d7aeb73cf9132fa94e47624f115a59cb5bb70f798f928af"
+  },
+  {
+    "index": 59,
+    "timestamp": 1789149989.5619853,
+    "event": {
+      "event_id": "ALT-030",
+      "event_type": "LOG_ANOMALY_C006",
+      "cluster_id": "C006",
+      "severity": "MEDIUM",
+      "risk_score": 31,
+      "action": "MONITOR",
+      "priority": "MEDIUM",
+      "source": "Linux",
+      "investigator": "INV-001",
+      "response_agent": "RESP-001",
+      "reason": "Occasional occurrence (2.15%, 43 event(s)). High-risk error/auth indicator match: 'exited abnormally'. Evidence confirms 10 associated log line(s).",
+      "template": "ALERT exited abnormally with [1]"
+    },
+    "previous_hash": "ddc1ac77712b0b473d7aeb73cf9132fa94e47624f115a59cb5bb70f798f928af",
+    "hash": "2e17d575afb64458ef4995c44a305845b78117723f5535439d86e0c7c6d98b15"
+  },
+  {
+    "index": 60,
+    "timestamp": 1789149994.403239,
+    "event": {
+      "event_id": "ALT-001",
+      "event_type": "LOG_ANOMALY_C005",
+      "cluster_id": "C005",
+      "severity": "MEDIUM",
+      "risk_score": 44,
+      "action": "MONITOR",
+      "priority": "MEDIUM",
+      "source": "Apache",
+      "investigator": "INV-001",
+      "response_agent": "RESP-001",
+      "reason": "Moderate frequency (0.60%, 12 event(s)). High-risk error/auth indicator match: 'error'. Evidence confirms 10 associated log line(s).",
+      "template": "mod_jk child init <*> <*>"
+    },
+    "previous_hash": "2e17d575afb64458ef4995c44a305845b78117723f5535439d86e0c7c6d98b15",
+    "hash": "9a2282fdecca8d1d4ac34fec0232832633c12481c9e6778a3514e2484e60d337"
+  },
+  {
+    "index": 61,
+    "timestamp": 1789149994.4170976,
+    "event": {
+      "event_id": "ALT-002",
+      "event_type": "LOG_ANOMALY_C004",
+      "cluster_id": "C004",
+      "severity": "MEDIUM",
+      "risk_score": 37,
+      "action": "MONITOR",
+      "priority": "MEDIUM",
+      "source": "Apache",
+      "investigator": "INV-001",
+      "response_agent": "RESP-001",
+      "reason": "Occasional occurrence (1.60%, 32 event(s)). High-risk error/auth indicator match: 'error'. Evidence confirms 10 associated log line(s).",
+      "template": "[client <*> Directory index forbidden by rule: /var/www/html/"
+    },
+    "previous_hash": "9a2282fdecca8d1d4ac34fec0232832633c12481c9e6778a3514e2484e60d337",
+    "hash": "c5519b2f8bfe06c26995cb225d25d3b1aedda2645d1a1804ecb086916b107a4c"
+  },
+  {
+    "index": 62,
+    "timestamp": 1789150043.4771533,
+    "event": {
+      "event_id": "ALT-001",
+      "event_type": "LOG_ANOMALY_C015",
+      "cluster_id": "C015",
+      "severity": "CRITICAL",
+      "risk_score": 80,
+      "action": "ESCALATE",
+      "priority": "CRITICAL",
+      "source": "HDFS",
+      "investigator": "INV-001",
+      "response_agent": "RESP-001",
+      "reason": "Extremely rare occurrence (0.05%, 1 event(s)). Medium warning or administrative operation match: 'replicate'. Behavioral pattern matches: replicate\\s+blk_. Evidence confirms 1 associated log line(s).",
+      "template": "BLOCK* ask <*>:<*> to replicate blk_<*> to datanode(s) <*>:<*>"
+    },
+    "previous_hash": "c5519b2f8bfe06c26995cb225d25d3b1aedda2645d1a1804ecb086916b107a4c",
+    "hash": "1fcbe07af3ffb35aaa8453fb091faa32d6fdee42c2929f610c0f36a8c9d78b65"
+  },
+  {
+    "index": 63,
+    "timestamp": 1789150043.4922745,
+    "event": {
+      "event_id": "ALT-002",
+      "event_type": "LOG_ANOMALY_C016",
+      "cluster_id": "C016",
+      "severity": "CRITICAL",
+      "risk_score": 80,
+      "action": "ESCALATE",
+      "priority": "CRITICAL",
+      "source": "HDFS",
+      "investigator": "INV-001",
+      "response_agent": "RESP-001",
+      "reason": "Extremely rare occurrence (0.05%, 1 event(s)). Medium warning or administrative operation match: 'delete'. Behavioral pattern matches: delete\\s+blk_. Evidence confirms 1 associated log line(s).",
+      "template": "BLOCK* ask <*>:<*> to delete blk_<*>"
+    },
+    "previous_hash": "1fcbe07af3ffb35aaa8453fb091faa32d6fdee42c2929f610c0f36a8c9d78b65",
+    "hash": "95a1c1ea9b82b40349c93405397886edaf536d368255e9f1d8570a579fc7e640"
+  },
+  {
+    "index": 64,
+    "timestamp": 1789150043.5000703,
+    "event": {
+      "event_id": "ALT-003",
+      "event_type": "LOG_ANOMALY_C012",
+      "cluster_id": "C012",
+      "severity": "HIGH",
+      "risk_score": 75,
+      "action": "ESCALATE",
+      "priority": "HIGH",
+      "source": "HDFS",
+      "investigator": "INV-001",
+      "response_agent": "RESP-001",
+      "reason": "Very rare occurrence (0.10%, 2 event(s)). Medium warning or administrative operation match: 'delete'. Behavioral pattern matches: delete\\s+blk_. Evidence confirms 2 associated log line(s).",
+      "template": "BLOCK* ask <*>:<*> to delete blk_<*>"
+    },
+    "previous_hash": "95a1c1ea9b82b40349c93405397886edaf536d368255e9f1d8570a579fc7e640",
+    "hash": "acfe03bafad00a03ce9109ce7576d22bb3408dcfea8362819650da1194de8b10"
+  },
+  {
+    "index": 65,
+    "timestamp": 1789150043.5086858,
+    "event": {
+      "event_id": "ALT-004",
+      "event_type": "LOG_ANOMALY_C014",
+      "cluster_id": "C014",
+      "severity": "HIGH",
+      "risk_score": 75,
+      "action": "ESCALATE",
+      "priority": "HIGH",
+      "source": "HDFS",
+      "investigator": "INV-001",
+      "response_agent": "RESP-001",
+      "reason": "Very rare occurrence (0.10%, 2 event(s)). Medium warning or administrative operation match: 'delete'. Behavioral pattern matches: delete\\s+blk_. Evidence confirms 2 associated log line(s).",
+      "template": "BLOCK* ask <*>:<*> to delete blk_<*>"
+    },
+    "previous_hash": "acfe03bafad00a03ce9109ce7576d22bb3408dcfea8362819650da1194de8b10",
+    "hash": "764dbc782bc16200a3892ee79b96cbdfc08b59609c314dcae89c216f67e0fa29"
+  },
+  {
+    "index": 66,
+    "timestamp": 1789150043.5173895,
+    "event": {
+      "event_id": "ALT-005",
+      "event_type": "LOG_ANOMALY_C011",
+      "cluster_id": "C011",
+      "severity": "HIGH",
+      "risk_score": 73,
+      "action": "ESCALATE",
+      "priority": "HIGH",
+      "source": "HDFS",
+      "investigator": "INV-001",
+      "response_agent": "RESP-001",
+      "reason": "Extremely rare occurrence (0.05%, 1 event(s)). Standard informational or low-severity marker: 'info'. Behavioral pattern matches: transfer\\s+block. Evidence confirms 1 associated log line(s).",
+      "template": "<*>:<*> Starting thread to transfer block blk_<*> to <*>:<*>"
+    },
+    "previous_hash": "764dbc782bc16200a3892ee79b96cbdfc08b59609c314dcae89c216f67e0fa29",
+    "hash": "d45f1e5224a7ea48ecae1ca1f36bbff43d717cdf6e02a41bb9216e3fd7a694ad"
+  },
+  {
+    "index": 67,
+    "timestamp": 1789150043.5263088,
+    "event": {
+      "event_id": "ALT-006",
+      "event_type": "LOG_ANOMALY_C013",
+      "cluster_id": "C013",
+      "severity": "HIGH",
+      "risk_score": 63,
+      "action": "ESCALATE",
+      "priority": "HIGH",
+      "source": "HDFS",
+      "investigator": "INV-001",
+      "response_agent": "RESP-001",
+      "reason": "Very rare occurrence (0.10%, 2 event(s)). Standard informational or low-severity marker: 'info'. Evidence confirms 2 associated log line(s).",
+      "template": "Received block blk_<*> src: /<*>:<*> dest: /<*>:<*> of size <*>"
+    },
+    "previous_hash": "d45f1e5224a7ea48ecae1ca1f36bbff43d717cdf6e02a41bb9216e3fd7a694ad",
+    "hash": "ca6a8689a0d6d60b3273a1c76cad6fd84be92b5bf19c94e7749d73cb936a3b6f"
+  },
+  {
+    "index": 68,
+    "timestamp": 1789150043.5347135,
+    "event": {
+      "event_id": "ALT-007",
+      "event_type": "LOG_ANOMALY_C009",
+      "cluster_id": "C009",
+      "severity": "MEDIUM",
+      "risk_score": 45,
+      "action": "MONITOR",
+      "priority": "MEDIUM",
+      "source": "HDFS",
+      "investigator": "INV-001",
+      "response_agent": "RESP-001",
+      "reason": "Occasional occurrence (4.00%, 80 event(s)). High-risk error/auth indicator match: 'exception'. Evidence confirms 10 associated log line(s).",
+      "template": "<*>:<*>:Got exception while serving blk_<*> to /<*>:"
+    },
+    "previous_hash": "ca6a8689a0d6d60b3273a1c76cad6fd84be92b5bf19c94e7749d73cb936a3b6f",
+    "hash": "b995ba62c951f673df2ef3a17fbad5b74cd88fae765b501ef9dd1623a342ccc2"
+  },
+  {
+    "index": 69,
+    "timestamp": 1789150043.5427132,
+    "event": {
+      "event_id": "ALT-008",
+      "event_type": "LOG_ANOMALY_C006",
+      "cluster_id": "C006",
+      "severity": "MEDIUM",
+      "risk_score": 37,
+      "action": "MONITOR",
+      "priority": "MEDIUM",
+      "source": "HDFS",
+      "investigator": "INV-001",
+      "response_agent": "RESP-001",
+      "reason": "Moderate frequency (1.00%, 20 event(s)). Standard informational or low-severity marker: 'info'. Evidence confirms 10 associated log line(s).",
+      "template": "Verification succeeded for blk_<*>"
+    },
+    "previous_hash": "b995ba62c951f673df2ef3a17fbad5b74cd88fae765b501ef9dd1623a342ccc2",
+    "hash": "6eab3fc4a5d7066c565c1c11306d80d7cb81c0bf52719d9c50f9ded36c334522"
+  },
+  {
+    "index": 70,
+    "timestamp": 1789150043.551056,
+    "event": {
+      "event_id": "ALT-009",
+      "event_type": "LOG_ANOMALY_C008",
+      "cluster_id": "C008",
+      "severity": "MEDIUM",
+      "risk_score": 32,
+      "action": "MONITOR",
+      "priority": "MEDIUM",
+      "source": "HDFS",
+      "investigator": "INV-001",
+      "response_agent": "RESP-001",
+      "reason": "Occasional occurrence (4.00%, 80 event(s)). Standard informational or low-severity marker: 'info'. Evidence confirms 10 associated log line(s).",
+      "template": "<*>:<*> Served block blk_<*> to /<*>"
+    },
+    "previous_hash": "6eab3fc4a5d7066c565c1c11306d80d7cb81c0bf52719d9c50f9ded36c334522",
+    "hash": "651b5ae8a365a70d3fb9d6d3b7dc04f238e0c79a45a56dbf3eb2f63fd7b21d8d"
+  },
+  {
+    "index": 71,
+    "timestamp": 1789150043.560134,
+    "event": {
+      "event_id": "ALT-010",
+      "event_type": "LOG_ANOMALY_C010",
+      "cluster_id": "C010",
+      "severity": "MEDIUM",
+      "risk_score": 30,
+      "action": "MONITOR",
+      "priority": "MEDIUM",
+      "source": "HDFS",
+      "investigator": "INV-001",
+      "response_agent": "RESP-001",
+      "reason": "Common occurrence (11.20%, 224 event(s)). Medium warning or administrative operation match: 'delete'. Evidence confirms 10 associated log line(s).",
+      "template": "BLOCK* NameSystem.delete: blk_<*> is added to invalidSet of <*>:<*>"
+    },
+    "previous_hash": "651b5ae8a365a70d3fb9d6d3b7dc04f238e0c79a45a56dbf3eb2f63fd7b21d8d",
+    "hash": "e9281f18a3ee5e8d4d83f62f8f243fb4e121ebceab73b5c0fc7510c0cab622be"
   }
 ]
