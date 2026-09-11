@@ -1,0 +1,128 @@
+[
+  {
+    "index": 0,
+    "timestamp": 0.0,
+    "event": {
+      "type": "GENESIS"
+    },
+    "previous_hash": "0",
+    "hash": "874dbb3fe2ae8d08fcbc8560e7e2a2e2af10078a985845461b238d057cfa24a0"
+  },
+  {
+    "index": 1,
+    "timestamp": 1789121047.6004777,
+    "event": {
+      "event_id": "TEST-001",
+      "event_type": "LOGIN_FAILED",
+      "severity": "HIGH",
+      "user": "test_user",
+      "ip": "10.0.0.5"
+    },
+    "previous_hash": "874dbb3fe2ae8d08fcbc8560e7e2a2e2af10078a985845461b238d057cfa24a0",
+    "hash": "c35b8194d0fe292c803afa1c2bbaad8c2d6a185ce658065b44dddd37b738c564"
+  },
+  {
+    "index": 2,
+    "timestamp": 1789121047.6198244,
+    "event": {
+      "event_id": "TEST-002",
+      "event_type": "LOGIN_SUCCESS",
+      "severity": "LOW",
+      "user": "test_user",
+      "ip": "10.0.0.5"
+    },
+    "previous_hash": "c35b8194d0fe292c803afa1c2bbaad8c2d6a185ce658065b44dddd37b738c564",
+    "hash": "f43872d0e0e4d9d1140e64c9abe3fd1b15d6592a407d74871802d463c622edea"
+  },
+  {
+    "index": 3,
+    "timestamp": 1789121047.639956,
+    "event": {
+      "event_id": "TEST-003",
+      "event_type": "PRIVILEGE_ESCALATION",
+      "severity": "CRITICAL",
+      "user": "test_user",
+      "ip": "10.0.0.5"
+    },
+    "previous_hash": "f43872d0e0e4d9d1140e64c9abe3fd1b15d6592a407d74871802d463c622edea",
+    "hash": "1e6213730e1a90a80c8e5b4c0122a62f1a84d4a3c372d1767b71d217189a210c"
+  },
+  {
+    "index": 4,
+    "timestamp": 1789121470.231586,
+    "event": {
+      "event_id": "TEST-004",
+      "event_type": "DATA_EXFILTRATION",
+      "severity": "CRITICAL",
+      "user": "analyst_bob",
+      "ip": "192.168.1.120"
+    },
+    "previous_hash": "1e6213730e1a90a80c8e5b4c0122a62f1a84d4a3c372d1767b71d217189a210c",
+    "hash": "d09434dab7293d46dc660f106e57961feed1e0c0ee0b74399cffb3f597192f34"
+  },
+  {
+    "index": 5,
+    "timestamp": 1789121742.7331457,
+    "event": {
+      "event_id": "TEST-001",
+      "event_type": "LOGIN_FAILED",
+      "severity": "HIGH",
+      "user": "test_user",
+      "ip": "10.0.0.5"
+    },
+    "previous_hash": "d09434dab7293d46dc660f106e57961feed1e0c0ee0b74399cffb3f597192f34",
+    "hash": "049be35fd3423792288c9b5ddf41632a4afb0f5dfbd2558e408316f597a32205"
+  },
+  {
+    "index": 6,
+    "timestamp": 1789121788.4496973,
+    "event": {
+      "event_id": "TEST-001",
+      "event_type": "LOGIN_FAILED",
+      "severity": "HIGH",
+      "user": "test_user",
+      "ip": "10.0.0.5"
+    },
+    "previous_hash": "049be35fd3423792288c9b5ddf41632a4afb0f5dfbd2558e408316f597a32205",
+    "hash": "9fdec89423fd3faeb20c8b5bfae6a9876bdb4eb153803d9154ae5edf98ffe92d"
+  },
+  {
+    "index": 7,
+    "timestamp": 1789121814.8974388,
+    "event": {
+      "event_id": "FINAL-EVT-01",
+      "event_type": "FIREWALL_DROP",
+      "severity": "MEDIUM",
+      "user": "sysadmin",
+      "ip": "10.10.10.10"
+    },
+    "previous_hash": "9fdec89423fd3faeb20c8b5bfae6a9876bdb4eb153803d9154ae5edf98ffe92d",
+    "hash": "934a0c29b81df3428d276d09991c29c87d44be49d581cd523d47f0bd2cd05278"
+  },
+  {
+    "index": 8,
+    "timestamp": 1789123450.6837723,
+    "event": {
+      "event_id": "DEMO-001",
+      "event_type": "LOGIN_FAILED",
+      "severity": "HIGH",
+      "user": "test_user",
+      "ip": "10.0.0.5"
+    },
+    "previous_hash": "934a0c29b81df3428d276d09991c29c87d44be49d581cd523d47f0bd2cd05278",
+    "hash": "0c356fdafa3bd960f022c2b4332f7a2a2f548837ef1e50b98de4e2e8b5c4a574"
+  },
+  {
+    "index": 9,
+    "timestamp": 1789127288.1576188,
+    "event": {
+      "event_id": "FINAL-DEMO-001",
+      "event_type": "SUSPICIOUS_LOGIN",
+      "severity": "HIGH",
+      "user": "demo_user",
+      "ip": "192.168.10.50"
+    },
+    "previous_hash": "0c356fdafa3bd960f022c2b4332f7a2a2f548837ef1e50b98de4e2e8b5c4a574",
+    "hash": "b46d68610cd58e69b216bdd885c8333f3c31e8555e7d11141bb0ae00f52e715f"
+  }
+]
